@@ -1,34 +1,36 @@
-# README
-### Ground Rules
-This team has a set of ground rules for our project process.
-##### Code review checklist
-Before submitting a PR for review we will conduct an internal review made by the opposite pair programming team. They will make sure to double check the following:
-* Code formatting
-* Naming standards
-* Functionality for each line of code
-* Test coverage
-#### Naming
-This team will be using snake case for naming branches. Both sides (API and client) will have the same branch names for each feature.
-#### Communication
-This team aim to have three join ups a day:
-* 08:45, Team scrum | Setting the plan for the day, preparing scrum master for joined morning scrum
-* before lunch, check in | Making sure we are on the right track and moving forward
-* 16:45, Team scrum | Going through the daily progress, making sure we are moving forward
-#### Pair programming
-This team aims to work in two sub-teams where each team follow the same user story on both api and client. This way we can easily understand what the other team is doing and both sides and can help each other out with our features.
-#### Pull request template
-# [PT Story](https://www.pivotaltracker.com/story/show/166150770)
-```
-User Store from PT
-```
-## Changes proposed in this pull request:
-* Adds unit test for User model, and request spec for registration and login
-* Installs and setups Devise Token Auth
-## What I have learned working on this feature:
-* Modifying User model from Devise Token Auth with new DB column, and configuring permitted params 
-* Refreshed knowledge about implementing and testing Devise Token Auth
-## Packages/Gems added
--
--
--
-## Screenshots (Only if client side story)
+# ![The GrogBot App](public/grog_bot_small.png) (API)
+### About the GrogBot
+The GrogBot App is a drink application that lets visitors choose a virgin ingredient which once submitted offers a list of drinks. The drinks show ingredients, instructions and type of glass. As the app is connected to a local Swedish liquor provider through an API you can also view a list of the liquors you can purchase in your local store, all Swedish brands of course.
+
+### What would you need
+This application has two repositories; the API (this one) and the client([here](https://github.com/kfrostare-Grogbot/team_2_grog_bot_client)). You will need to fork them both to get this App going.
+
+### Installing
+1. Fork this and [The Other](https://github.com/kfrostare-Grogbot/team_2_grog_bot_client) Git Repository
+2. Install [Yarn](https://yarnpkg.com/) if you don't already have it
+3. Install RSpec, Shoulda Matchers, Rack Cors and Webmock (links below for more on how to get these installed to your OS)
+4. For deployment we recommend [Heroku](https://www.heroku.com/)
+
+### Tested using
+* [RSpec](https://rspec.info/)
+* [Shoulda Matchers](https://matchers.shoulda.io/)
+* [Rack Cors](https://www.rubydoc.info/gems/rack-cors/0.2.9)
+* [Webmock](https://rubygems.org/gems/webmock)
+
+### Built with
+* [Ruby on Rails](https://rubyonrails.org/)
+* [The Cocktail Database](https://www.thecocktaildb.com/)
+* [The Systembolaget API](https://www.systembolaget.se/api/)
+
+### Authors
+* [Karolina Frostare](https://github.com/kfrostare)
+* [Emma-Maria Thalén](https://github.com/emtalen)
+* [Johan Bons](https://github.com/johanbounce)
+* [Anish Kanwal](https://github.com/Anish2504)
+* [Robin Lillqvist](https://github.com/robin-lillqvist)
+
+### License
+We operate under the MIT license.
+
+### Thank you's
+* The material needed to build this application was provided by [Craft Academy](https://www.craftacademy.se/english/)
